@@ -83,8 +83,10 @@
   border-radius: 6px;
   font-family: Lato, sans-serif;
   color: #888;
+  width: 226px;
 }
-.list__item-input_task:focus {
+.list__item-input_task:focus,
+.section_add-item__input:focus {
   color: #333;
 }
 
@@ -94,7 +96,7 @@
   margin: 0 0 20px;
 }
 .section_add-item__input {
-  width: 318px;
+  width: 440px;
 }
 
 /* Task list */
@@ -107,20 +109,13 @@
   justify-content: space-between;
   align-items: center;
 }
-.list__item > * {
-  vertical-align: middle;
-}
-
-.input_checkbox {
+.list__item-input_checkbox {
   margin: 0 10px;
 }
 .list__item-label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
-  width: 226px;
-}
-.list__item-input_task {
   width: 226px;
 }
 .btn__img-remove {
@@ -133,7 +128,7 @@
 }
 
 /* Completed */
-.list__item-label {
+.list_completed-tasks .list__item-label {
   text-decoration: line-through;
   color: #888;
 }
