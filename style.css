@@ -105,11 +105,7 @@
   justify-content: space-between;
   align-items: center;
 }
-.list__item > * {
-  vertical-align: middle;
-}
-
-.input_checkbox {
+.list__item-input_checkbox {
   margin: 0 10px;
 }
 .list__item-label {
@@ -131,7 +127,7 @@
 }
 
 /* Completed */
-.list__item-label {
+.list_completed-tasks .list__item-label {
   text-decoration: line-through;
   color: #888;
 }
